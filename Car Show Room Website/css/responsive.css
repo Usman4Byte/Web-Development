@@ -1,0 +1,84 @@
+
+  
+
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+  
+    .navbar {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .logo,
+    .navlist,
+    .rightnav {
+      width: 100%;
+      text-align: center;
+      margin: 10px 0;
+    }
+  
+    .logo img {
+      height: 120px;
+      width: 120px;
+    }
+  
+    .navlist li a {
+      padding: 20px;
+    }
+  
+    #search {
+      width: 100%;
+    }
+  
+    .btn {
+      width: 100%;
+      margin-right: 0;
+    }
+  
+    .home {
+      padding: 0 20px;
+      height: auto;
+    }
+  
+    .home h1 {
+      font-size: 30px;
+    }
+  
+    .home p {
+      font-size: 1rem;
+    }
+  
+    #cars {
+      height: auto;
+      padding-top: 20px;
+    }
+  
+    .carheading {
+      font-size: 30px;
+    }
+  
+    .search-form {
+      flex-direction: column;
+    }
+  
+    #carsearch,
+    .carsearch-btn {
+      width: 100%;
+    }
+  
+    #about {
+      height: auto;
+    }
+  
+    .about-container {
+      height: auto;
+      padding: 20px;
+    }
+  
+    .about-container h4,
+    h3,
+    .about-container p {
+      font-size: 18px;
+    }
+  }
+  
